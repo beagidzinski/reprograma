@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
+
+.cabecalho {
+    background-color: rgb(110, 55, 110);
+    margin: 0px 10% 2%;
+    border: 2px solid lightgrey;
+    display: flex;
+}
+
+.div-1 {
+    color: white;
+    margin-left: 3%;
+    text-shadow: 2px 2px 2px grey;
+    width: 100%;
+}
+
+.div-2 {
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.apresentacao {
+    display: flex;
+    border: 10px double rgb(138, 138, 138);
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.apresentacao1 {
+    font-size: 30px;
+}
+
+.apresentacao2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.conteudo {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.conteudo-filho {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.imagens {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(114, 114, 114);
+    box-shadow: 2px 2px 3px rgb(145, 145, 145);
+    border-radius: 50%;
+}
+
+.texto {
+    height: 150px;
+    font-size: 20px;
+}
